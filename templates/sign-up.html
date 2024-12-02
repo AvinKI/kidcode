@@ -1,0 +1,320 @@
+{% extends "base.html" %}
+{% load static %}
+{% block header %}
+    <title>صفحه ثبت نام </title>
+{% endblock %}
+{% block content %}
+
+
+    <section class="container-fluid text-lg-right text-center mt-4 p-3 mb-5">
+        <div class="container">
+
+            <div class="row d-flex align-items-center pt-lg-5">
+
+                <div class="col-lg-7 pl-lg-5 text-center order-2 order-lg-1">
+                    <div class="d-flex align-items-center mb-3">
+
+                        <h2 class="mr-3">ثبت نام فردی </h2>
+
+
+                    </div>
+                    <div class="card p-5">
+                        <form method="post" class="contact-form">
+                            {% csrf_token %}
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control mb-2" name="name" id="name" placeholder="نام  ">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control mb-2" name="last_name" id="last_name"
+                                           placeholder="نام خانوادگی">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control mb-2" name="name_english" id="name_english"
+                                           placeholder=" نام به انگلیسی ">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control mb-2" name="last_name_english"
+                                           placeholder=" نام نام خانوادگی به انگلیسی ">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input type="text" class="form-control mb-2" placeholder="  نام پدر  " 
+                                           name="father_name" id="father_name">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="" class="mt-2"> تاریخ تولد </label>
+                                </div>
+                                <div class="form-group form-control col-md-3">
+                                    <select name="date_birth" id="date_birth" class="selection">
+                                        <option value="1385"> 1385</option>
+                                        <option value="1386"> 1386</option>
+                                        <option value="1387"> 1387</option>
+                                        <option value="1388"> 1388</option>
+                                        <option value="1389"> 1389</option>
+                                        <option value="1390"> 1390</option>
+                                        <option value="1391"> 1391</option>
+                                        <option value="1392"> 1392</option>
+                                        <option value="1393"> 1393</option>
+                                        <option value="1394"> 1394</option>
+                                        <option value="1395"> 1395</option>
+                                        <option value="1396"> 1396</option>
+                                        <option value="1397"> 1397</option>
+
+                                    </select>
+                                </div>
+                                <div class="form-group form-control col-md-3">
+                                    <select name="month_birth" id="month_birth" class="selection">
+                                        <option value="فروردین"> فروردین</option>
+                                        <option value="اردیبهشت"> اردیبهشت</option>
+                                        <option value="خرداد"> خرداد</option>
+                                        <option value="تیر"> تیر</option>
+                                        <option value="مرداد"> مرداد</option>
+                                        <option value="شهریور"> شهریور</option>
+                                        <option value="مهر"> مهر</option>
+                                        <option value="آبان"> آبان</option>
+                                        <option value="آذز"> آذر</option>
+                                        <option value="دی"> دی</option>
+                                        <option value="بهمن"> بهمن</option>
+                                        <option value="اسفند"> اسفند</option>
+                                    </select>
+                                </div>
+                                <div class="form-group form-control col-md-3">
+                                    <select name="day_birth" id="day_birth" class="selection">
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-md-3">
+                                    <label for=""  class="mt-2"> جنسیت </label>
+                                </div>
+                                <div class="form-group form-control col-md-9">
+
+                                    <select class="selection" id="gander" name="gander">
+
+                                        <option value="پسر"> پسر</option>
+                                        <option value="دختر"> دختر</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group col-md-12">
+                                    <input type="text" inputmode="numeric" maxlength="10" class="form-control mb-2" name="national_code" id="national_code"
+                                           placeholder=" کدملی ">
+                                </div>
+
+                                <div class="form-group form-control col-md-6">
+                                    <select name="educational_base" class="selection">
+                                        <option value="پایه اول ابتدایی"> پایه اول ابتدایی</option>
+                                        <option value="پایه دوم ابتدایی"> پایه دوم ابتدایی</option>
+                                        <option value="پایه سوم ابتدایی"> پایه سوم ابتدایی</option>
+                                        <option value="پایه چهارم ابتدایی"> پایه چهارم ابتدایی</option>
+                                        <option value="پایه پنجم ابتدایی"> پایه پنجم ابتدایی</option>
+                                        <option value="پایه ششم ابتدایی"> پایه ششم ابتدایی</option>
+                                        <option value="پایه هفتم متوسطه اول"> پایه هفتم متوسطه اول</option>
+                                        <option value="پایه هشتم متوسطه اول"> پایه هشتم متوسطه اول</option>
+                                        <option value="پایه نهم متوسطه اول"> پایه نهم متوسطه اول</option>
+                                        <option value="پایه دهم متوسط دوم"> پایه دهم متوسطه دوم</option>
+                                        <option value="پایه یازدهم متوسطه دوم"> پایه یازدهم متوسطه دوم</option>
+                                        <option value="پایه دوازدهم متوسطه دوم"> پایه دوازدهم متوسطه دوم</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control mb-2" name="school_name" id="school_name"
+                                           placeholder=" نام مدرسه ">
+                                </div>
+
+                                <div class="form-group col-md-4">
+                                    <label for="" class="mt-2"> استان </label>
+                                </div>
+                                <div class="form-group form-control col-md-8">
+                                    <select id="mySelect" name="mySelect" 
+                                            class="selection">
+                                        <option id="option-show2" value="اصفهان"> اصفهان</option>
+                                        <option value="البرز"> البرز</option>
+                                        <option value="ایلام"> ایلام</option>
+                                        <option value="بوشهر"> بوشهر</option>
+                                        <option value="تهران"> تهران</option>
+                                        <option value="چهارمحال و بختیاری"> چهارمحال و
+                                            بختیاری
+                                        </option>
+                                        <option value="آذربایجان شرقی"> آذربایجان شرقی
+                                        </option>
+                                        <option value="آذربایجان غربی"> آذربایجان غربی
+                                        </option>
+                                        <option value="خراسان جنوبی"> خراسان جنوبی</option>
+                                        <option value="خراسان رضوی"> خراسان رضوی</option>
+                                        <option value="خراسان شمالی"> خراسان شمالی</option>
+                                        <option value="خوزستان"> خوزستان</option>
+                                        <option value="زنجان"> زنجان</option>
+                                        <option value="سمنان"> سمنان</option>
+                                        <option value="سیستان و بلوچستان"> سیستان و بلوچستان
+                                        </option>
+                                        <option value="فارس"> فارس</option>
+                                        <option value="قزوین"> قزوین</option>
+                                        <option value="قم"> قم</option>
+                                        <option value="کردستان"> کردستان</option>
+                                        <option value="کرمان"> کرمان</option>
+                                        <option value="کرمانشاه"> کرمانشاه</option>
+                                        <option value="گلستان"> گلستان</option>
+                                        <option value="گیلان"> گیلان</option>
+                                        <option value="لرستان"> لرستان</option>
+                                        <option value="مازندران"> مازندران</option>
+                                        <option value="مرکزی"> مرکزی</option>
+                                        <option value="هرمزگان"> هرمزگان</option>
+                                        <option value="همدان"> همدان</option>
+                                        <option value="یزد"> یزد</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <input type="number" id="numberInput" name="numberInput" min="0" max="40"
+                                           oninput="checkInput()" class="form-control mb-2" placeholder=" نام منطقه  ">
+                                </div>
+
+
+                                <div id="div1" class="form-group form-control col-md-12 hidden">
+                                    <select class="selection" id="name_research_center" name="name_research_center">
+                                        <option value="none" selected disabled> نام منطقه / پژوهشسرا</option>
+                                        <option value="1 : آسمان">1 : آسمان</option>
+                                        <option value="2 : جوان">2 : جوان</option>
+                                        <option value="3 : امیر کبیر">3 : امیر کبیر</option>
+                                        <option value="4 : آفرینش">4 : آفرینش</option>
+                                        <option value="5 : جوان">5 : جوان</option>
+                                        <option value="6 : دکتر آشتیانی">6 : دکتر آشتیانی</option>
+                                        <option value="7 : اشتراق">7 : اشتراق</option>
+                                        <option value="8 : صدرا">8 : صدرا</option>
+                                        <option value="9 : رازی">9 : رازی</option>
+                                        <option value="10 : اندیشه پویا">10 : اندیشه پویا</option>
+                                        <option value="11 : پویا">11 : پویا</option>
+                                        <option value="12 : فارابی">12 : فارابی</option>
+                                        <optino value="13 : دکتر حسابی">13 : دکتر حسابی</optino>
+                                        <optino value="14 : خوارزمی">14 : خوارزمی</optino>
+                                        <optino value="15 : ابن سینا">15 : ابن سینا</optino>
+                                        <optino value="16 : اندیشه">16 : اندیشه</optino>
+                                        <optino value="17 : امام هادی">17 : امام هادی</optino>
+                                        <optino value="18 : رشد">18 : رشد</optino>
+                                        <option value="19 : جوانه">19 : جوانه</option>
+                                        <option value="سایر"> سایر</option>
+                                    </select>
+                                </div>
+
+                                <div id="div2" class="form-group col-md-12 hidden">
+                                    <input type="text" class="form-control mt-2" name="name_research_center" id="name_research_center"
+                                           placeholder=" نام پژوهشسرا ">
+                                </div>
+
+
+                                <div class="form-group col-md-12">
+                                    <input type="text" class="form-control mb-2" name="number_required" id="number_required"
+                                           placeholder="  شماره تماس ضروری ">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control mb-2" name="father_national_code" id="father_national_code"
+                                           placeholder=" کدملی پدر ">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control mb-2" name="number_parents"
+                                           placeholder=" شماره تماس ولی ">
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <input type="email" class="form-control mb-2" name="email" id="email" placeholder=" ایمیل ">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <textarea type="text" class="form-control mb-2" name="address" id="address"
+                                              placeholder=" آدرس "></textarea>
+                                </div>
+                                <div class="form-group col-md-12">
+
+                                    <a id="myBtn" class="form-control mb-2" aria-required="true"> انتخاب لیگ </a>
+
+                                </div>
+                                <div class="form-group col-md-6 d-flex justify-content-start">
+                                    <button type="submit" class="btn btn-lightorng login-btn">ثبت نام</button>
+                                </div>
+                                <div class="form-group col-md-6 d-flex justify-content-end">
+                                    <span>قبلا ثبت نام کرده اید؟<a class="reset-pass"
+                                                                   href="login.html">وارد شوید</a></span>
+
+                                </div>
+                                <hr>
+                                <p href=""> در صورت بروز مشکل با شماره زیر تماس حاصل فرمایید </p>
+                            </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-5 d-flex align-items-center order-1 order-lg-2">
+                    <img src="{% static 'img/logo.png' %}" class="img-fluid wapp opiptic"/>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h1>انتخاب گزینه‌ها</h1>
+            <p>دقت داشته باشید تمامی قیمت‌ها 500,000 تومان می‌باشد!</p>
+                {% for league in leagues %}
+                    <p class="form-control">{{ league.name }}</p>
+                    {% for tendency in league.leagues.all %}
+                        <label for="tendency_{{tendency.id}}" class="mr-3">
+                            <input type="checkbox" id="tendency_{{tendency.id}}" name="tendencies" value="{{ tendency.id }}">
+                            {{ tendency.name }}
+                            <input type="hidden" id="tendency_{{tendency.id}}_cost" value="{{tendency.cost}}">
+                        </label>
+                        <br>
+                    {% endfor %}
+                {% endfor %}
+            <!-- <h2>مجموع قیمت: <span id="my-decimal-number"  value="0" ></span> تومان </h2> -->
+            <p>مجموع :</p>
+            <input type="text" id="result-value" class="form-control mb-2 text-lg-right" value="0" readonly disabled> 
+            <span class="close btn btn-lightorng"> تایید </span>
+
+        </div>
+    </div>
+
+    </form>
+{% endblock %}
+{% block end_js %}
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/my-script.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
+{#    <script src="{% static 'js/script.js' %}"></script>#}
+
+{% endblock %}
