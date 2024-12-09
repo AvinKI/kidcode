@@ -89,3 +89,30 @@ def profile_setting(request):
             request.user.save()
         return redirect('dashboard_student')
     return render(request, 'pages-account-settings-account.html', {'user':user})
+
+
+
+from django.shortcuts import render, redirect, get_object_or_404
+from django.contrib.auth.decorators import login_required
+from django.contrib import messages
+from .models import Team, League
+
+@login_required
+def create_team(request, league_id):
+    league = get_object_or_404(League, id=league_id)
+
+    if not league.possibility_of_group_registration:
+        messages.error(request, "این لیگ فقط انفرادی است و نمی‌توانید تیمی ایجاد کنید.")
+        return redirect('dashboard_student')
+
+    if request.method == "POST":
+        team_name = request.POST.get("team_name")
+        if Team.objects.filter(name=team_name).exists():
+            messages.error(request, "نام تیم قبلاً استفاده شده است.")
+        else:
+            team = Team.objects.create(name=team_name, league=league, leader=request.user)
+            team.members.add(request.user)
+            messages.success(request, "تیم با موفقیت ایجاد شد.")
+            return redirect('team_detail', team_id=team.id)
+
+    return render(request, "create_team.html", {"league": league})

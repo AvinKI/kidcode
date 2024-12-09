@@ -1,4 +1,3 @@
-
 from django.core.exceptions import ValidationError
 from django.db import models
 from django.contrib.auth.models import AbstractUser, Group, Permission
@@ -18,16 +17,15 @@ class Field(models.Model):
     description = models.TextField()
     directive = models.FileField(upload_to='directive')
 
-
     def __str__(self):
         return self.name
 
 
 class League(models.Model):
     name = models.CharField(max_length=50)
-    league = models.ForeignKey(Field, on_delete=models.CASCADE ,  related_name='leagues')
-    cost = models.IntegerField(default=0)
+    league = models.ForeignKey(Field, on_delete=models.CASCADE, related_name='leagues')
     possibility_of_group_registration = models.BooleanField(default=True)
+
     def __str__(self):
         return self.name
 
@@ -108,8 +106,9 @@ class CustomUser(AbstractUser):
     day_of_birth = models.CharField(blank=True, max_length=13)
     number_area = models.IntegerField(blank=True, default=1)
     paid = models.BooleanField(verbose_name="پرداخت شده", default=False)
-    profile_photo = models.ImageField(blank=True , null=True , upload_to='profile')
-    registration_type = models.CharField(max_length=20, blank=True , choices={'انفرادی':'انفرادی','تیمی':'تیمی'} , default='انفرادی')
+    profile_photo = models.ImageField(blank=True, null=True, upload_to='profile')
+    registration_type = models.CharField(max_length=20, blank=True, choices={'انفرادی': 'انفرادی', 'تیمی': 'تیمی'},
+                                         default='انفرادی')
     groups = models.ManyToManyField(
         Group,
         related_name="customuser_set",
@@ -130,33 +129,34 @@ class Alert(models.Model):
 
 
 class StudentDashboard(models.Model):
-    teacher = models.CharField(blank=True , default='10' , max_length=3)
-    title_step_one = models.CharField(blank=True , max_length=100)
-    text_step_one = models.CharField(blank=True , max_length=200)
-    title_step_two = models.CharField(blank=True , max_length=100)
-    text_step_two = models.CharField(blank=True , max_length=200)
-    title_step_three = models.CharField(blank=True , max_length=100)
-    text_step_tree = models.CharField(blank=True , max_length=200)
-    title_step_four = models.CharField(blank=True , max_length=100)
-    text_step_four = models.CharField(blank=True , max_length=200)
-    title_step_five = models.CharField(blank=True , max_length=100)
-    text_step_five= models.CharField(blank=True , max_length=200)
-    title_step_six = models.CharField(blank=True , max_length=100)
-    text_step_six= models.CharField(blank=True , max_length=200)
-    title_step_seven = models.CharField(blank=True , max_length=100)
-    text_step_seven= models.CharField(blank=True , max_length=200)
+    teacher = models.CharField(blank=True, default='10', max_length=3)
+    title_step_one = models.CharField(blank=True, max_length=100)
+    text_step_one = models.CharField(blank=True, max_length=200)
+    title_step_two = models.CharField(blank=True, max_length=100)
+    text_step_two = models.CharField(blank=True, max_length=200)
+    title_step_three = models.CharField(blank=True, max_length=100)
+    text_step_tree = models.CharField(blank=True, max_length=200)
+    title_step_four = models.CharField(blank=True, max_length=100)
+    text_step_four = models.CharField(blank=True, max_length=200)
+    title_step_five = models.CharField(blank=True, max_length=100)
+    text_step_five = models.CharField(blank=True, max_length=200)
+    title_step_six = models.CharField(blank=True, max_length=100)
+    text_step_six = models.CharField(blank=True, max_length=200)
+    title_step_seven = models.CharField(blank=True, max_length=100)
+    text_step_seven = models.CharField(blank=True, max_length=200)
+
 
 class Commment(models.Model):
-    name = models.CharField(max_length=50 , blank=False)
+    name = models.CharField(max_length=50, blank=False)
     text = models.TextField(blank=False)
     profile = models.ImageField(upload_to='profile_cm/')
 
 
 class ContactUsForm(models.Model):
-    email = models.EmailField(verbose_name='ایمیل',blank=True)
-    subject = models.CharField(max_length=100,blank=True, verbose_name='موضوع پیام')
-    message = models.TextField(verbose_name='متن پیام' , blank=True)
-    created_at = models.DateTimeField(auto_now_add=True, verbose_name='تاریخ ارسال' , blank=True , null=True)
+    email = models.EmailField(verbose_name='ایمیل', blank=True)
+    subject = models.CharField(max_length=100, blank=True, verbose_name='موضوع پیام')
+    message = models.TextField(verbose_name='متن پیام', blank=True)
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name='تاریخ ارسال', blank=True, null=True)
 
     def __str__(self):
         return f"{self.subject} - {self.email}"
