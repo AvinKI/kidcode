@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static %}
+{% block header %}
+    <title>صفحه ورود </title>
+{% endblock %}
+{% block content %}
+
+
+    <section class="container-fluid text-lg-right text-center mt-4 p-3 mb-5">
+        <div class="container">
+
+            <div class="row d-flex align-items-center pt-lg-5">
+
+                <div class="col-lg-7 pl-lg-5 text-center order-2 order-lg-1">
+                    <div class="d-flex align-items-center mb-3">
+
+
+                        <h2 class="mr-3">ورود</h2>
+
+
+                    </div>
+                    <div class="card p-5">
+                        <form method="POST" action="{% url 'login_student' %}" class="contact-form">
+                            {% csrf_token %}
+
+
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <input type="text" id="username" name="username" class="form-control mb-2 username"
+                                           placeholder=" کدملی " required>
+
+                                </div>
+                                <div class="form-group col-12">
+                                    <input type="password" id="password" name="password" class="form-control mb-2 password"
+                                           placeholder="  رمز عبور یا کدملی " required>
+
+                                </div>
+                                <div class="form-group col-md-6 d-flex justify-content-start align-items-center">
+                                    <button type="submit" class="btn btn-lightorng login-btn">ورود</button>
+                                </div>
+                                <div class="form-group col-md-6 d-flex justify-content-end">
+                                    <a  class="register-btn py-3 radius55">ثبت نام</a>
+                                </div>
+                            </div>
+
+
+                        </form>
+                        {% if messages %}
+                            <ul>
+                                {% for message in messages %}
+                                    <li>{{ message }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-lg-5 d-flex align-items-center order-1 order-lg-2">
+                    <img src="{% static 'img/logo.png' %}" width="400px" class="img-fluid wapp radius55 opiptic"/>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+{% endblock %}
+{% block endjs %}
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/my-script.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
+{% endblock %}

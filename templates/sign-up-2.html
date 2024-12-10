@@ -1,0 +1,376 @@
+{% extends "base.html" %}
+{% load static %}
+{% block header %}
+    <title>صفحه ثبت نام </title>
+{% endblock %}
+{% block content %}
+
+        <section class="container-fluid text-lg-right text-center mt-4 p-3 mb-5">
+            <div class="container">
+           
+                <div class="row d-flex align-items-center pt-lg-5">
+
+                  <div class="col-lg-7 pl-lg-5 text-center order-2 order-lg-1">
+                    <div class="d-flex align-items-center mb-3">
+                            
+                            <h2 class="mr-3">ثبت نام فردی </h2>
+                        
+        
+                        </div>
+                    <div class="card p-5">
+                    <form class="contact-form" >
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control mb-2" name="Name" placeholder="نام  ">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control mb-2" name="LastName" placeholder="نام خانوادگی">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control mb-2" name="NameEnglish" placeholder=" نام به انگلیسی ">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control mb-2" name="LastNameEnglish" placeholder=" نام نام خانوادگی به انگلیسی ">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control mb-2" placeholder="  نام پدر  " name="FatherName" id="">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="" class="mt-2"> تاریخ تولد </label>
+                                </div>
+                                <div class="form-group form-control col-md-3">
+                                    <select name="DateBirth" class="selection">
+                                        <option value="1385"> 1385 </option>
+                                        <option value="1386"> 1386 </option>
+                                        <option value="1387"> 1387 </option>
+                                        <option value="1388"> 1388 </option>
+                                        <option value="1389"> 1389 </option>
+                                        <option value="1390"> 1390 </option>
+                                        <option value="1391"> 1391 </option>
+                                        <option value="1392"> 1392 </option>
+                                        <option value="1393"> 1393 </option>
+                                        <option value="1394"> 1394 </option>
+                                        <option value="1395"> 1395 </option>
+                                        <option value="1396"> 1396 </option>
+                                        <option value="1397"> 1397 </option>
+                                    
+                                    </select>
+                                </div>
+                                <div class="form-group form-control col-md-3">
+                                    <select name="MonthBirth" class="selection">
+                                        <option value="فروردین"> فروردین  </option>
+                                        <option value="اردیبهشت"> اردیبهشت </option>
+                                        <option value="خرداد"> خرداد </option>
+                                        <option value="تیر"> تیر </option>
+                                        <option value="مرداد"> مرداد </option>
+                                        <option value="شهریور"> شهریور </option>
+                                        <option value="مهر"> مهر </option>
+                                        <option value="آبان"> آبان </option>
+                                        <option value="آذز"> آذر </option>
+                                        <option value="دی"> دی </option>
+                                        <option value="بهمن"> بهمن </option>
+                                        <option value="اسفند"> اسفند </option>
+                                    </select>
+                                </div>
+                                <div class="form-group form-control col-md-3">
+                                    <select name="DayBirth" class="selection" >
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-md-3">
+                                    <label for="" class="mt-2"> جنسیت </label>
+                                </div>
+                                <div class="form-group form-control col-md-9">
+                                   
+                                     <select class="selection" name="Gander">
+                                       
+                                        <option value=""> پسر </option>
+                                        <option value=""> دختر </option>
+                                     </select>
+                                </div>
+
+
+                                <div class="form-group col-md-12">
+                                    <input type="text" maxlength="10" class="form-control mb-2" name="NationalCode" placeholder=" کدملی ">
+                                </div>
+
+                                <div class="form-group form-control col-md-6">
+                                    <select name="EducationalBase" class="selection" >
+                                        <option value="پایه اول ابتدایی"> پایه اول ابتدایی </option>
+                                        <option value="پایه دوم ابتدایی"> پایه دوم ابتدایی </option>
+                                        <option value="پایه سوم ابتدایی"> پایه سوم ابتدایی </option>
+                                        <option value="پایه چهارم ابتدایی"> پایه چهارم ابتدایی </option>
+                                        <option value="پایه پنجم ابتدایی"> پایه پنجم ابتدایی </option>
+                                        <option value="پایه ششم ابتدایی"> پایه ششم ابتدایی </option>
+                                        <option value="پایه هفتم متوسطه اول"> پایه هفتم متوسطه اول </option>
+                                        <option value="پایه هشتم متوسطه اول"> پایه هشتم متوسطه اول </option>
+                                        <option value="پایه نهم متوسطه اول"> پایه نهم متوسطه اول </option>
+                                        <option value="پایه دهم متوسط دوم"> پایه دهم متوسطه دوم </option>
+                                        <option value="پایه یازدهم متوسطه دوم"> پایه یازدهم متوسطه دوم </option>
+                                        <option value="پایه دوازدهم متوسطه دوم"> پایه دوازدهم متوسطه دوم </option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control mb-2" name="SchoolName" placeholder=" نام مدرسه ">
+                                </div>
+
+                                <div class="form-group col-md-4">
+                                    <label for="" class="mt-2">  استان  </label>
+                                </div>
+                                <div class="form-group form-control col-md-8">
+                                    <select id="options" onchange="showDiv(this.value)" name="Nameprovince" class="selection">
+                                        <option onclick="showDiv('hide')" value="اصفهان"> اصفهان </option>
+                                        <option onclick="showDiv('hide')" value="البرز"> البرز </option>
+                                        <option onclick="showDiv('hide')" value="ایلام"> ایلام </option>
+                                        <option onclick="showDiv('hide')" value="بوشهر"> بوشهر </option>
+                                        <option onclick="showDiv('show1')" value="تهران"> تهران </option>
+                                        <option onclick="showDiv('hide')" value="چهارمحال و بختیاری"> چهارمحال و بختیاری </option>
+                                        <option onclick="showDiv('hide')" value="آذربایجان شرقی"> آذربایجان شرقی </option>
+                                        <option onclick="showDiv('hide')" value="آذربایجان غربی"> آذربایجان غربی </option>
+                                        <option onclick="showDiv('hide')" value="خراسان جنوبی"> خراسان جنوبی </option>
+                                        <option onclick="showDiv('hide')" value="خراسان رضوی"> خراسان رضوی </option>
+                                        <option onclick="showDiv('hide')" value="خراسان شمالی"> خراسان شمالی </option>
+                                        <option onclick="showDiv('hide')" value="خوزستان"> خوزستان </option>
+                                        <option onclick="showDiv('hide')" value="زنجان"> زنجان </option>
+                                        <option onclick="showDiv('hide')" value="سمنان"> سمنان </option>
+                                        <option onclick="showDiv('hide')" value="سیستان و بلوچستان"> سیستان و بلوچستان </option>
+                                        <option onclick="showDiv('hide')" value="فارس"> فارس </option>
+                                        <option onclick="showDiv('hide')" value="قزوین"> قزوین </option>
+                                        <option onclick="showDiv('hide')" value="قم"> قم </option>
+                                        <option onclick="showDiv('hide')" value="کردستان"> کردستان </option>
+                                        <option onclick="showDiv('hide')" value="کرمان"> کرمان </option>
+                                        <option onclick="showDiv('hide')" value="کرمانشاه"> کرمانشاه </option>
+                                        <option onclick="showDiv('hide')" value="گلستان"> گلستان </option>
+                                        <option onclick="showDiv('hide')" value="گیلان"> گیلان </option>
+                                        <option onclick="showDiv('hide')" value="لرستان"> لرستان </option>
+                                        <option onclick="showDiv('hide')" value="مازندران"> مازندران </option>
+                                        <option onclick="showDiv('hide')" value="مرکزی"> مرکزی </option>
+                                        <option onclick="showDiv('hide')" value="هرمزگان"> هرمزگان </option>
+                                        <option onclick="showDiv('hide')" value="همدان"> همدان </option>
+                                        <option onclick="showDiv('hide')" value="یزد"> یزد </option>
+                                    </select>
+                                </div>
+                            
+                                <div class="form-group col-md-12">
+                                    <input type="number" id="numberInput" name="NumberArea" min="0" max="40" oninput="checkInput()" class="form-control mb-2" placeholder=" نام منطقه  ">
+                                </div>
+
+                              
+                                
+                                <div   id="div1"   class="form-group form-control col-md-12 hidden" >
+                                    <select class="selection" name="NameResearchCenter">
+                                        <option value="none" selected disabled> نام منطقه / پژوهشسرا </option>
+                                        <option value="1 : آسمان">1 : آسمان</option>
+                                        <option value="2 : جوان">2 : جوان</option>
+                                        <option value="3 : امیر کبیر">3 : امیر کبیر</option>
+                                        <option value="4 : آفرینش">4 : آفرینش</option>
+                                        <option value="5 : جوان">5 : جوان</option>
+                                        <option value="6 : دکتر آشتیانی">6 : دکتر آشتیانی</option>
+                                        <option value="7 : اشتراق">7 : اشتراق</option>
+                                        <option value="8 : صدرا">8 : صدرا</option>
+                                        <option value="9 : رازی">9 : رازی </option>
+                                        <option value="10 : اندیشه پویا">10 : اندیشه پویا</option>
+                                        <option value="11 : پویا">11 : پویا</option>
+                                        <option value="12 : فارابی">12 : فارابی </option>
+                                        <optino value="13 : دکتر حسابی">13 : دکتر حسابی</optino>
+                                        <optino value="14 : خوارزمی">14 : خوارزمی</optino>
+                                        <optino value="15 : ابن سینا">15 : ابن سینا</optino>
+                                        <optino value="16 : اندیشه">16 : اندیشه</optino>
+                                        <optino value="17 : امام هادی">17 : امام هادی</optino>
+                                        <optino value="18 : رشد">18 : رشد</optino>
+                                        <option value="19 : جوانه">19 : جوانه </option>
+                                        <option value="سایر"> سایر </option>
+                                    </select>
+                                </div>
+
+                                <div id="div2" class="form-group col-md-12 hidden">
+                                    <input type="text" class="form-control mt-2" name="NameResearchCenter" placeholder=" نام پژوهشسرا ">
+                                </div>
+                                
+                                
+                                
+                               
+                           
+                           
+                           
+                           
+                           
+                            
+                           
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control mb-2" name="NumberRequired" placeholder="  شماره تماس ضروری ">
+                            </div>
+                           
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control mb-2" name="FatherNationalCode" placeholder=" کدملی پدر ">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control mb-2" name="NumberParents" placeholder=" شماره تماس ولی ">
+                            </div>
+                           
+                            <div class="form-group col-md-12">
+                                <input type="email" class="form-control mb-2" name="Email" placeholder=" ایمیل ">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <textarea type="text" class="form-control mb-2" name="Address" placeholder=" آدرس " ></textarea>
+                            </div>
+                            <div class="form-group col-md-12">
+                             
+                                <a id="myBtn" class="form-control mb-2" aria-required="true" > انتخاب لیگ </a>
+                                                          
+                            </div>
+                            <div class="form-group col-md-6 d-flex justify-content-start">
+                                <button type="submit" class="btn btn-lightorng login-btn">ثبت نام</button>
+                            </div>
+                            <div class="form-group col-md-6 d-flex justify-content-end">
+                                <span>قبلا ثبت نام کرده اید؟<a class="reset-pass" href="login.html">وارد شوید</a></span>
+                               
+                            </div>
+                            <hr>
+                            <p href=""> در صورت بروز مشکل با شماره زیر تماس حاصل فرمایید </p>
+                        </div>
+
+
+                     
+
+
+                    
+                </div>
+                    </div>
+        
+                  
+                 
+    
+          
+                    <div class="col-lg-5 d-flex align-items-center order-1 order-lg-2">
+                        <img src="img/logo.png" class="img-fluid wapp opiptic" />
+                    </div>
+            
+            </div>
+            </div>
+        </section>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+               
+                    <h1>انتخاب گزینه‌ها</h1>
+                    <p> دقت داشته باشید تمامی قیمت ها 500,000 تومان میباشد! </p>
+                <form id="optionsForm">
+                    <p class="form-control"> برنامه نویسی بلوکی </p>
+                        <label class="mr-3"> 
+                            <input type="checkbox" id="500000" name="Scratch" value="اسکرچ"> اسکرچ 
+                        </label>
+                    <br>
+                        <label class="mr-3">
+                            <input type="checkbox" id="500000" name="ScratchJr" value=" اسکرچ جونیور ">  اسکرچ جونیور
+                        </label>
+                    <br>
+                        <label class="mr-3">
+                            <input type="checkbox" id="500000" name="ApplicationWriting" value=" اپلیکیشن نویسی ">  اپلیکیشن نویسی 
+                        </label>
+                    <br>
+                        <label for="" class="form-control mb-2">
+                            <input type="checkbox" id="500000" name="Iot" value=" برنامه نویسی سخت افزار IOT ">  برنامه نویسی سخت افزار IOT  
+                        </label>
+    
+                    <p class="form-control"> رباتیک </p>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="RallyControl" value=" کنترل رالی "> کنترل رالی 
+                    </label>
+                    <br>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="Warrior" value="جنگجو"> جنگجو 
+                    </label>
+                    <br>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="Footballist" value="فوتبالیست"> فوتبالیست 
+                    </label>
+                    <br>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="Creativity" value="خلاقیت"> خلاقیت 
+                    </label>
+                    <br>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="Science" value="علم"> علم
+                    </label>
+                    <br>
+                    <label for=""  class="mr-3">
+                        <input type="checkbox" id="500000" name="ChasingLight" value="تعقیب نور"> تعقیب نور 
+                    </label>
+                    <br>
+                    
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="GarbageTransportation" value="حمل زباله"> حمل زباله 
+                    </label>
+                    <br>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="Router" value="مسیریاب"> مسیر یاب 
+                    </label>
+                    <br>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="WRO" value="WRO"> WRO 
+                    </label>
+                    <p class="form-control"> برنامه نویسی </p>
+                    <label for="" class="mr-3"> 
+                        <input type="checkbox" id="500000" name="ACM" value="ACM">  ACM 
+                    </label>
+                    <br>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="WebDesign" value="طراحی وب"> طراحی وب 
+                    </label>
+                    <br>
+                    <label for="" class="mr-3">
+                        <input type="checkbox" id="500000" name="Python" value=" برنامه نویسی پایتون ">  برنامه نویسی پایتون
+                    </label>
+                   
+                </form>
+                <!-- <h2>مجموع قیمت: <span id="my-decimal-number"  value="0" ></span> تومان </h2> -->
+                <p>مجموع :</p>
+                <input type="text" id="result-value" class="form-control mb-2 text-lg-right" value="0" readonly>
+      
+
+               
+                    <span class="close btn btn-lightorng "> تایید </span>
+            </div>
+        </div>
+    </form>
+        
+
+    <script src="Js/jquery.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/my-script.js"></script>
+    <script src="Js/custom.js"></script>
+
+</body>
+</html>

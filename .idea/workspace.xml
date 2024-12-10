@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b734397-27fe-4a06-b7ae-4011af6fbb0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kidcode_9_19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/migrations/0002_field_cost_league_cost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/migrations/0003_remove_field_cost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/css/Main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/css/Menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/css/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/css/owl.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/fonts/woff/YekanBakhFaNum-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/fonts/woff/YekanBakhFaNum-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/fonts/woff/YekanBakhFaNum-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/fonts/woff/YekanBakhFaNum-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/3th.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/Copy-of-robotic-1-5-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/Kidcode_2023_Final_143-820x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/Site-1536x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/about-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/animation-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/bg-cunter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/digital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/kidcode-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/python-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/robotics-e1672857640122-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/scratch-e1672857535259-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/sharif-logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/sharif-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/sharif-logo3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/sharif-logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/sheveh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/js/my-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zarinpal/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zarinpal/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zarinpal/zarinpal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kidcode_9_19/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kidcode_9_19/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kidcode_9_19/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kidcode_9_19/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kidcode_9_19/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/Main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/Menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/owl.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/woff/YekanBakhFaNum-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/woff/YekanBakhFaNum-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/woff/YekanBakhFaNum-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/woff/YekanBakhFaNum-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/3th.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/Copy-of-robotic-1-5-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/Kidcode_2023_Final_143-820x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/Site-1536x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/about-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/animation-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg-cunter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/digital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kidcode-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/python-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/robotics-e1672857640122-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/scratch-e1672857535259-500x286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sharif-logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sharif-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sharif-logo3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sharif-logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sheveh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/my-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/doucument.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index-student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pages-account-settings-account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/programers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sign-up-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/add-team.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/css/boxicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/img/avatars/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/img/avatars/1029.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/img/avatars/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/img/icons/unicons/chart-success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/img/icons/unicons/chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/img/icons/unicons/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/img/illustrations/gi.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/js/js-register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Bold-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Bold-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Bold-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Bold-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Thin-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Thin-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Thin-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Farsi-Digits/Vazir-Thin-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Vazir.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Bold-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Bold-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Bold-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Bold-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Light-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Light-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Light-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Light-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Medium-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Medium-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Medium-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Medium-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Thin-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Thin-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Thin-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-Thin-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vazir-font-v18.0.0/Without-Latin/Vazir-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/css/theme-default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/fonts/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/js/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/js/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/libs/apex-charts/apexcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/libs/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/assets/vendor/libs/popper/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/event-student-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/event-student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/form-add-student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/form-add-teacher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/form-layouts-vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/history-liderboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/index-student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/page-account-allert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/pages-account-empty-connection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/pages-account-settings-account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/pages-account-settings-connections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/send-student-project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/status-student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template-03-09-18/template/sneats/status-teacher.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2pypl7tgEpzzJ1RLV52QcBDl4dq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;W:/kidcode - final version/kidcode_9_19&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\kidcode - final version\kidcode_9_19" />
+      <recent name="W:\kidcode - final version\kidcode_9_19\Zarinpal" />
+      <recent name="W:\kidcode - final version\kidcode_9_19\Main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\kidcode - final version\kidcode_9_19\Main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="kidcode_9_19" type="Python.DjangoServer" factoryName="Django server">
+      <module name="kidcode_9_19" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b734397-27fe-4a06-b7ae-4011af6fbb0e" name="Changes" comment="" />
+      <created>1733748317751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733748317751</updated>
+      <workItem from="1733748320874" duration="4333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
